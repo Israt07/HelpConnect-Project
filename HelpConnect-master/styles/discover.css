@@ -1,0 +1,144 @@
+.discover-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px;
+}
+
+/* sidebar */
+.sidebar {
+    min-width: fit-content;
+    padding: 20px 0;
+    border-right: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar a {
+    padding: 10px 50px 10px 10px;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+}
+
+.discover {
+    width: 100%;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.breadcrumb a {
+    color: black;
+    text-decoration: none;
+}
+
+.discover h1 {
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* search bar */
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    padding: 0 20px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.search-bar p {
+    padding: 0;
+    margin: 7px 0;
+    color: gray;
+}
+
+/* user profile */
+.profile-container {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.profile {
+    background-color: white;
+    padding: 10px 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    
+}
+
+.profile-block {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.profile h3 {
+    margin: 0;
+}
+
+.profile h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.profile p {
+    margin: 0;
+    padding: 0 5px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: gray;
+}
+
+.service-container {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.view-profile {
+    margin: 20px 10px;
+    padding: 5px 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-style: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}

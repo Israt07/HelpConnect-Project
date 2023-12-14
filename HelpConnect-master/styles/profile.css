@@ -1,0 +1,173 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px;
+}
+
+/* sidebar */
+.sidebar {
+    min-width: fit-content;
+    padding: 20px 0;
+    border-right: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar a {
+    padding: 10px 50px 10px 10px;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+}
+
+.profile {
+    width: 100%;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* bach button */
+.back-button {
+    color: black;
+    margin: 7px 0;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.breadcrumb a {
+    color: black;
+    text-decoration: none;
+}
+
+.profile h1 {
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.basic-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info h3 {
+    margin: 0;
+    font-weight: normal !important;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+/* follow and book service button */
+.action-btn {
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-btn img {
+    width: 150px;
+    height: 150px;
+}
+
+.action-btn .follow {
+    background-color: var(--secondary-color);
+    color: black;
+    cursor: pointer;
+}
+
+.action-btn .follow:disabled {
+    background-color: gray;
+    color: black;
+}
+
+/* service list */
+.service-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-container {
+    margin: 0 20px;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.service-container p {
+    margin: 0;
+    padding: 0 5px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: gray;
+}
+
+/* service experience */
+.service-expereince {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin: 5px;
+}
+
+.service-expereince p {
+    margin: 0;
+    padding: 0 5px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: gray;
+}
+
+.experience-table {
+    width: 60%;
+    background-color: white;
+    border: none;
+}
+
+.experience-table th{
+    padding: 5px 10px;
+}
+
+.table-body td{
+    padding: 10px;
+    text-align: center;
+}
+
+.table-head {
+    background-color: var(--primary-color);
+    color: white;
+}

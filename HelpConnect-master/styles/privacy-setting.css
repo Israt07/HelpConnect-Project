@@ -1,0 +1,107 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 50px;
+    height: 86vh;
+}
+
+/* sidebar */
+.sidebar {
+    min-width: fit-content;
+    padding: 20px 0;
+    border-right: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar a {
+    padding: 10px 50px 10px 10px;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+}
+
+.profile {
+    width: 100%;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* bach button */
+.back-button {
+    color: black;
+    margin: 7px 0;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.breadcrumb a {
+    color: black;
+    text-decoration: none;
+}
+
+.profile h1 {
+    margin: 0;
+}
+
+/* content */
+.content {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.content h3 {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-label {
+    margin: 0 !important;
+    padding-left: 15px !important;
+}
+
+/* submit button */
+.button {
+    width: 100%;
+    text-align: right;
+}
+
+.button button {
+    margin: 20px;
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.button button:disabled {
+    margin: 20px;
+    background-color: #D9D9D9;
+    color: gray;
+    cursor: not-allowed;
+}
+
+.button button:not(:disabled) {
+    margin: 20px;
+    background-color: var(--secondary-color);
+    color: black;
+    cursor: pointer;
+}
