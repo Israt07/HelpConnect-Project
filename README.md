@@ -5,3 +5,6 @@ Landing page
 
 
 ![login](https://github.com/Israt07/HelpConnect-Project/assets/82527970/c32e35f3-5e93-4167-bae2-e5a80c81db6c)
+
+sign up
+![sign up page](https://github.com/Israt07/HelpConnect-Project/assets/82527970/cfec40fb-89a8-47b6-bb01-3e70408fb548)
